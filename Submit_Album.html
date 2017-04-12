@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang-"en-US">
+	<head>
+		<title>Web page title</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<!-- Change style to more align with wirefram -->
+		<style>
+			body{
+				padding-top: 30px;
+			}
+		
+			.panel > .panel-collapse{
+				background-color: #D0D0D0;
+			}
+			
+			.panel > .panel-heading {
+				background-color: #A0A0A0;
+			}
+		</style>
+	
+	</head>
+	
+	<body>
+		<div class="container">
+			<header class="jumbotron text-center">
+				<h1>Submit Album </h1>
+			</header>
+			
+			<!-- Panel Group -->
+			<div class="panel-group" id="album-submit">
+				<div class="panel panel-default">
+					<!-- Title andArtst Panel -->
+					<div class="panel-heading">
+						<h4 class="panel-title text-center">
+							<a data-toggle="collapse" data-parent="#album-submit" href="#album-title">
+								Album Title and Artist
+							</a>
+						</h4>
+					</div>
+					
+					<div id="album-title" class="panel-collapse collapse in">
+						<div class="panel-body">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Morbi id pharetra nibh. Mauris a nisi non augue varius tristique. 
+							Morbi laoreet eu lacus et efficitur. 
+							Nunc ac turpis enim. 
+							Curabitur sit amet sem pretium, efficitur est et, euismod eros. 
+							Sed sit amet libero semper, ultrices ligula eget, aliquet risus. 
+							Aenean facilisis eros a nibh condimentum venenatis. 
+							Quisque vestibulum vestibulum posuere. 
+							Phasellus porta nunc sit amet odio euismod tristique. 
+							Morbi finibus a leo quis consequat. 
+							Aliquam maximus sapien ut sem dictum sodales. 
+							Fusce ac risus at ipsum auctor convallis. 
+							Ut semper, elit eu auctor tempus, dui enim varius enim, ac placerat ligula mi ac purus.
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<!-- Album Track Panel -->
+					<div class="panel-heading">
+						<h4 class="panel-title text-center">
+							<a data-toggle="collapse" data-parent="#album-submit" href="#album-track">
+								Track Information
+							</a>
+						</h4>
+					</div>
+					
+					<div id="album-track" class="panel-collapse collapse">
+						<div class="panel-body">
+							Maecenas viverra eros lacus, eu ultricies sapien molestie vitae. 
+							Ut lacinia purus at tempor fringilla. Sed aliquet congue dignissim. 
+							Suspendisse nec tellus aliquet, pellentesque ante quis, vulputate sem. 
+							Sed sed diam tristique, maximus quam non, tempus sem. 
+							Nam facilisis enim odio, quis ultrices augue sollicitudin eget. 
+							Cras sit amet dolor dapibus, vestibulum dui at, lacinia turpis. 
+							Phasellus ultricies erat ac est posuere ullamcorper sed eu est. 
+							Etiam id est vel lorem auctor semper sed ac nulla. 
+							Aenean dignissim ex odio. 
+							Donec sapien erat, tristique ac metus non, scelerisque fringilla lacus. 
+							Mauris mattis orci id urna egestas, eget consectetur mi egestas. 
+							Pellentesque eu venenatis tortor, eu consectetur justo. 
+							Integer tristique dui vehicula aliquam tristique. 
+							Phasellus sed nulla et tortor pulvinar interdum luctus at erat. 
+							Nunc mi turpis, elementum vitae erat eu, ornare laoreet nibh.
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<!-- Expert Review Panel -->
+					<div class="panel-heading">
+						<h4 class="panel-title text-center">
+							<a data-toggle="collapse" data-parent="#album-submit" href="#album-review">
+								Expert Review
+							</a>
+						</h4>
+					</div>
+					
+					<div id="album-review" class="panel-collapse collapse">
+						<div class="panel-body">
+							Quisque egestas dapibus commodo. 
+							In hac habitasse platea dictumst. 
+							Fusce laoreet pharetra magna, non pharetra diam dapibus lobortis. 
+							Suspendisse ornare tellus eget turpis laoreet condimentum. 
+							Proin felis lectus, suscipit sit amet ligula sed, dapibus ultrices augue. 
+							Phasellus lacus elit, molestie eget feugiat ut, laoreet et arcu. 
+							Aliquam erat volutpat. 
+							Cras id malesuada nunc. 
+							Morbi faucibus, tortor non fringilla efficitur, lorem justo lobortis urna, 
+							lacinia facilisis mauris elit ac nulla. 
+							Phasellus eros tortor, consectetur nec libero pulvinar, venenatis feugiat elit. 
+							Aliquam ipsum justo, dapibus sed rutrum eu, molestie id metus. 
+							Nulla ut velit scelerisque, imperdiet nisl ut, elementum enim. 
+							Sed vel fermentum purus, ultrices vulputate leo. Mauris faucibus, 
+							diam non posuere tempor, tortor nisl sollicitudin augue, feugiat egestas libero urna in magna.
+						</div>
+					</div>
+				</div>
+				
+				</div>
+			</div>
+			
+		</div>
+		<!-- JQuery and Bootstrap Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	</body>
+</html>
